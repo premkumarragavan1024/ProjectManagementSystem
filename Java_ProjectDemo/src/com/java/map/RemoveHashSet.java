@@ -1,0 +1,24 @@
+package com.java.map;
+
+import java.util.HashSet;
+
+public class RemoveHashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<Integer> numbers = new HashSet<>();
+        numbers.add(2);
+        numbers.add(5);
+        numbers.add(6);
+        System.out.println("HashSet: " + numbers);
+
+        // Using remove() method
+        boolean value1 = numbers.remove(10);
+        System.out.println("Is 5 removed? " + value1);
+
+        boolean value2 = numbers.removeAll(numbers);
+        System.out.println("Are all elements removed? " + value2);
+        System.out.println(numbers);
+	}
+
+}
