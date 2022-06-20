@@ -1,6 +1,7 @@
 package com.java.collections;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 
@@ -10,6 +11,9 @@ public class ArrayListDemo {
 		
 		 ArrayList<String> animals = new ArrayList<>();
 	        // Add elements animals[0]="Dog" | animals[1] = "Cat" | animals[2]="Horse"
+	        animals.add("Dog");//0
+	        animals.add("Cat");//1
+	        animals.add("90");//2
 	        animals.add("Dog");//0
 	        animals.add("Cat");//1
 	        animals.add("90");//2
@@ -36,12 +40,12 @@ public class ArrayListDemo {
 	        
 	        
 	        
-	        Iterator<Integer> iterObj = noofdays.iterator();//iterObj=> [Dog, Test]
+	        Iterator<Integer> iterObj = noofdays.iterator();//iterObj=>  [20,40,60]
 	        
-	  	  int sum = 0;
+	  	    int sum = 0;//20//60//120
 	        
 	        while(iterObj.hasNext()) {
-	        	sum = sum + (iterObj.next());
+	        	sum = sum + (iterObj.next());//20//40//60
 	        }
 	        
 	        

@@ -13,5 +13,3 @@ syntax:
  calculate(){
 
 }
-
-test - new changes

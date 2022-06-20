@@ -24,8 +24,8 @@ public class HashMapDemo {
 	        //get(1) * remove(2)
 	        //indexOf("Gopinath")
 	        
-	        
-	        String value = numbers.remove(1);
+	         
+	        String value = numbers.remove("AC000001");
 	        System.out.println("Removed Value: " + value);
 	}
 

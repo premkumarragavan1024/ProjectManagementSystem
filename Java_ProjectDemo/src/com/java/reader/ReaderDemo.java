@@ -14,7 +14,7 @@ public class ReaderDemo {
 
         try {
             // Creates a reader using the FileReader /Users/thulasy/Documents/iDigiSoft Technology/Source Code/Core Java workspace/Java_ProjectDemo/src/com/java/reader/input.txt
-        	FileReader input = new FileReader("/Users/thulasy/Documents/iDigiSoft Technology/Source Code/Training_Workspace/Java_ProjectDemo/src/com/java/reader/input.txt");
+        	FileReader input = new FileReader("/Users/thulasy/git/ProjectManagementSystem/Java_ProjectDemo/src/com/java/reader/input.txt");
 
             // Checks if reader is ready 
             System.out.println("Is there data in the stream?  " + input.ready());

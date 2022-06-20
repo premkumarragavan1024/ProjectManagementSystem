@@ -15,7 +15,7 @@ public class WriterDemo {
 
         try {
             // Creates a Writer using FileWriter
-            Writer output = new FileWriter("/Users/thulasy/Documents/iDigiSoft Technology/Source Code/Core Java workspace/Java_ProjectDemo/src/com/java/reader/output.txt");
+            Writer output = new FileWriter("/Users/thulasy/git/ProjectManagementSystem/Java_ProjectDemo/src/com/java/reader/output.txt");
 
 
             // Writes string to the file
